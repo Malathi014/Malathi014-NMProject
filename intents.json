@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Is anyone there?"],
+      "responses": ["Hi there!", "Hello! How can I help you?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my package"],
+      "responses": ["Can you provide your order ID please?"]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["How to return?", "What is your return policy?"],
+      "responses": ["You can return within 7 days of delivery."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later"],
+      "responses": ["Goodbye!", "See you again!"]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": ["how to cancel my order"],
+      "responses": ["you can cancel your order by visiting the my orders section "]
+    }
+  ]
+}
